@@ -1,0 +1,7 @@
+---
+
+- hosts: wireguardservers
+  vars:
+   #serial: 1
+  roles:
+   - linux_wireguard

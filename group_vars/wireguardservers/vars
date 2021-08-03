@@ -1,0 +1,3 @@
+---
+wg_conf_dir: '/etc/wireguard'
+wg_listen_port: "53729"
