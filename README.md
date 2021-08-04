@@ -1,7 +1,7 @@
 # ansible-wireguardservers
 Ansible playbook and role to create side-to-side or mulit-side wireguard setups
 
-e.g.:
+## Examples:
 ```
                 +--------+                +--------+
 +-------+       |        |                |        |       +-------+
@@ -69,4 +69,13 @@ e.g.:
 |   #3  |       |   #3   |                |   #4   |       |   #4  |
 +-------+       |        |                |        |       +-------+
                 +--------+                +--------+
+```
+
+## Project dependencies
+
+### Python
+* [netaddr](https://pypi.org/project/netaddr/)
+
+```bash
+pip install netaddr
 ```
